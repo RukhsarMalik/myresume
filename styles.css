@@ -1,0 +1,159 @@
+body{
+    font-family: Roboto, Arial;
+    margin: 0;
+    padding-top: 50px;
+    padding-left: 320px;
+    padding-right: 24px;
+}
+
+.main-heading{
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: rgb(54, 86, 190);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.institute-name {
+    font-size: 1.125rem;
+    padding-left: 50px ;
+}
+
+.school-name , .skill-category{
+    font-size: 1.0625rem;
+    padding-left: 45px;
+    font-weight: 500;
+
+}
+
+.work-experience{
+    padding-left: 45px;
+    font-weight: 500;
+}
+
+.expertise, .skills{
+    padding-left: 60px;
+ 
+}
+
+.sidebar{
+    position: fixed;
+    left: 100px;
+    bottom: 0;
+    top: 0px;
+    background-color: white;
+    width: 200px;
+    z-index: 200;
+    background-color: rgb(54, 86, 190);
+    color: white;
+    font-family: Roboto, Arial;
+  
+}
+
+
+.my-name{
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 1.875rem;
+    color: white;
+    
+    
+}
+
+.profile-pic{
+    width: 150px;
+   padding: 30px;
+    border-radius: 106px;
+    
+}
+
+.sidebar-heading{
+    font-size: 1.5625rem;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.my-info{
+    padding-left: 15px;
+   line-height: 25px;
+
+}
+.contact-info{
+    font-size: 1.5625rem;
+    padding-top: 30px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.contact-info-container{
+    font-size: 0.8125rem;
+}
+
+
+#toggleSkills {
+    margin-left: 10px;
+    font-size: 1.5625rem;
+}
+
+.linkedin{
+    display: grid;
+    grid-template-columns: 25px 1fr;
+    color: white;
+}
+
+@media(max-width: 768px){
+    body{
+        padding-top: 30px;
+        padding-left: 200px;
+        padding-right: 20px;
+    }
+
+    .institute-name{
+        padding-left: 30px;
+        font-size: 1rem;
+    }
+    .school-name, .skill-category{
+        font-size: 0.9rem;
+        padding-left: 30px;
+    }
+    .work-experience {
+        padding-left: 30px; 
+        font-size: 0.85rem;
+    }
+    .expertise, .skills {
+        padding-left: 40px;
+        font-size: 0.8rem;
+
+    }
+    .sidebar{
+        left: 30px;
+        width: 150px;
+    }
+    .sidebar-heading, .contact-info{
+        font-size: 1rem;
+        padding-bottom: 10px;
+    }
+    .my-name{
+        font-size: 1.2rem;
+        padding-bottom: 8px;
+    }
+    .profile-pic{
+        width: 120px;
+        padding: 20px;
+        border-radius: 80px;
+    }
+    .main-heading{
+        font-size: 1rem;
+    }
+    .contact-info-container{
+        font-size: 0.6rem;
+        line-height: 20px;
+    }
+    .my-info{
+        font-size: 0.9rem;
+    }
+    
+
+    
+}
